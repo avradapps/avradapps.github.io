@@ -1,0 +1,103 @@
+:root {
+  color-scheme: light;
+  --bg: #fff7ed;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted: #5b6472;
+  --primary: #c2410c;
+  --primary-dark: #7c2d12;
+  --border: #fed7aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.65;
+}
+
+a {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.hero {
+  padding: 28px 0 20px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 13px;
+}
+
+h1 {
+  margin: 0;
+  color: var(--primary-dark);
+  font-size: 38px;
+  line-height: 1.15;
+}
+
+.lead {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.section {
+  margin-top: 28px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  color: var(--primary-dark);
+  font-size: 24px;
+}
+
+h3 {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-size: 20px;
+}
+
+.app-card {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.policy {
+  background: var(--surface);
+}
+
+.policy .page {
+  max-width: 900px;
+}
+
+.policy h1 {
+  font-size: 32px;
+}
+
+.policy h2 {
+  margin-top: 30px;
+  font-size: 21px;
+}
+
+.policy .updated {
+  color: var(--muted);
+}
